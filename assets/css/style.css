@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    justify-content: center;
+}
+
+.header {
+    height: 30px;
+    border: 5px;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu p {
+    margin: 0 10px;
+}
+
+
+.portion {
+    background-color: cornflowerblue;
+}
